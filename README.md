@@ -13,7 +13,7 @@ We have used flexbox for this project to design a company homepage a landing pag
 
 ## Launch
 
-[The page link](https://github.com/CustomHaven/company-homepage)
+[The page link](https://customhaven.github.io/company-homepage/)
 
 ## Status
 
