@@ -1,0 +1,272 @@
+/* Universal Style */
+
+body {
+  font-family: "Poppins", " Arial", sans-serif;
+  width: 100%;
+  margin: auto;
+  background-color: azure;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+span,
+p {
+  font-family: "Poppins", " Arial", sans-serif;
+  padding: 10px;
+  line-height: 1.5rem;
+  font-size: 16px;
+}
+
+/* Header Section */
+
+nav {
+  width: 100%;
+  /* height: 250px; */
+  margin: auto;
+  background-color: black;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  color: white;
+  padding: 20px;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav li {
+  display: inline-block;
+}
+
+li a {
+  color: white;
+}
+
+.main {
+  width: 100%;
+  margin: auto;
+}
+
+/* Banner Section */
+
+#banner {
+  width: 100%;
+  height: 800px;
+  /* padding: 80px; */
+  color: white;
+  /* overflow: hidden; */
+  text-align: center;
+}
+
+.banner-image {
+  background-image: url(../images/decoded-enterprise.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* opacity: 0.65; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner-text {
+  background-color: black;
+  width: 100%;
+  opacity: unset;
+  overflow: hidden;
+  flex-shrink: 2;
+}
+
+.banner-text h1 {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 700;
+  /* padding-top: 2%; */
+  /* padding-bottom: 2%; */
+  line-height: 1;
+}
+
+.banner-text h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  /* font-size: 1.8rem; */
+  /* padding-top: 2%; */
+  /* padding-bottom: 2%; */
+  line-height: 1;
+  /* flex-shrink: 3; */
+}
+
+h3 {
+  font-size: 1.6rem;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 1260px) {
+  .banner-text h1 {
+    font-size: 1.9rem;
+  }
+  .banner-text h2 {
+    font-size: 1.6rem;
+  }
+  .decode-flex {
+    max-width: 100%;
+    height: auto;
+    /* padding: 100px 100px 0px 0px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-content: stretch;
+  }
+  .decode-container {
+    flex-basis: 100%;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .decode-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    flex-grow: 3;
+  }
+  footer {
+    flex-flow: column wrap;
+    justify-content: center;
+    justify-items: flex-start;
+    align-content: center;
+    margin-top: 5%;
+    text-align: center;
+  }
+}
+
+/* Decode Section */
+
+#decode {
+  padding: 80px 80px 0px 80px;
+}
+
+#decode h3,
+#team h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+#decode h4 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.decode-flex {
+  padding: 100px 100px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.decode-container {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.decode-container img {
+  max-width: 100%;
+  width: 50%;
+  padding: 10px;
+  margin-left: 25%;
+  margin-right: auto;
+  height: auto;
+  display: block;
+}
+
+.decode-container span {
+  flex-shrink: 2;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+/* Team Section */
+
+#team {
+  margin: auto;
+}
+
+#team h2 {
+  margin: 5% auto;
+}
+
+.team-flex {
+  padding: 200px;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.team-image {
+  background-image: url(../images/the-world.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-vertical {
+  padding: 50px;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.image-vertical img {
+  width: auto;
+  max-height: 100%;
+  display: block;
+}
+
+.team-content {
+  color: white;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100px;
+  /* color: white; */
+  /* background-color: black; */
+  margin-bottom: 0;
+  font-style: italic;
+}
